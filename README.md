@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The goal of this assignment is to develop a small web application for a label that need to manage some artist information and compute statements based on a sales report.
+The goal of this assignment is to develop a small web application for a label that needs to manage some artist information and compute statements based on a sales report.
 
 ## Assignment
 
@@ -36,7 +36,7 @@ Transaction types can be grouped as:
 **"Product code" usually corresponds to the ISRC, but when it's a release sale, it corresponds to the UPC**.
 
 ### Models
-For this asignment, you will need to create four models:
+For this assignment, you will need to create four models:
 
 - Artists (name)
 - Albums (artist, UPC[^1], release title, year)
@@ -58,7 +58,7 @@ Feel free to change the models the best way you see fit.
    * (Optional) Artist share grouped by release sales
 
 ### Not necessary
-Because the limited time, here are some things you don't have to do:
+Because of the limited time, here are some things you don't have to do:
 
 - Authentication or authorization
 - We'll check it on desktop, so responsiveness isn't necessary
@@ -66,6 +66,7 @@ Because the limited time, here are some things you don't have to do:
 ### Notes
 - You can use any framework in Ruby or Javascript: Ruby on Rails, React, Vue.js, etc.
 - You can use any CSS framework: Semantic UI, Element UI, Ant Design, Tailwind CSS, etc.
+- We prefer quality over quantity ;)
 
 [^1]: https://en.wikipedia.org/wiki/Universal_Product_Code
 [^2]: https://en.wikipedia.org/wiki/International_Standard_Recording_Code
