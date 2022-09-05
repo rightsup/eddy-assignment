@@ -47,9 +47,10 @@ Feel free to change the models the best way you see fit.
 
 ### Task
 
+1. Import the `tracks.json` to seed your Artists, Albums and Tracks tables.
+1. Import the `sales-report.json` into the sales table and assign the revenue for artists and labels according to the royalty rate table (you can do this during the seeding)
 1. Create a view where you can select an artist and a year, and show all filtered tracks.
-2. Import the JSON sales report to the sales table and assign the revenue for artists and labels according to the royalty rate table (you can do this during the seeding)
-3. Create a view with a summary of the revenue by each artist, with the following information:
+1. Create a view with a summary of the revenue by each artist, with the following information:
    * Artist name
    * Total statement income (artist share + label share)
    * Total artist share
@@ -64,8 +65,10 @@ Because of the limited time, here are some things you don't have to do:
 - We'll check it on desktop, so responsiveness isn't necessary
 
 ### Notes
-- You can use any framework in Ruby or Javascript: Ruby on Rails, React, Vue.js, etc.
+- Any Ruby on Rails version is fine, but we recommend using the last one.
+- You can use any JS framework (if necessary): React, Vue.js, etc.
 - You can use any CSS framework: Semantic UI, Element UI, Ant Design, Tailwind CSS, etc.
+- The solution must take into account the performance (imagine importing a huge amount of data).
 - We prefer quality over quantity ;)
 
 [^1]: https://en.wikipedia.org/wiki/Universal_Product_Code
